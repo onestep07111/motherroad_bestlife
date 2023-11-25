@@ -1,0 +1,36 @@
+2
+            <tr>
+                <td>
+                    <label class="text-sm font-bold text-gray-600 uppercase" style="float: left;margin-left:10px;">販売元</label>
+                </td>
+                <td colspan="2">
+                    <input type="text" class="form-control" placeholder="">
+                    @error('posts.store_nm') <span class="text-red-600 err-message">{{ $message }}</span> @enderror
+                </td>
+            </tr>
+
+3
+            <tr>
+                <td>
+                    <label class="text-sm font-bold text-gray-600 uppercase" style="float: left;margin-left:10px;">製造年</label>
+                </td>
+                <td>
+                    <input type="text" class="form-control" placeholder="">
+                </td>
+                <td>
+                    年
+                </td>
+            </tr>
+
+3b
+            <tr>
+                <td>
+                    <label class="text-sm font-bold text-gray-600 uppercase" style="float: left;margin-left:10px;">ブランド</label>
+                </td>
+                <td>
+                    <input type="text" class="form-control" placeholder="" disabled="false">
+                </td>
+                <td>
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon1">➡</button>
+                </td>
+            </tr>
